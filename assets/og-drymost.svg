@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DRYMOST</title>
+  <desc id="desc">Kosmiczna grafika marki DRYMOST z produktem Mint Storm 150.</desc>
+  <defs>
+    <radialGradient id="space" cx="72%" cy="30%" r="76%">
+      <stop offset="0" stop-color="#26185f"/>
+      <stop offset=".35" stop-color="#0a1230"/>
+      <stop offset="1" stop-color="#02030a"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#66f4ff"/>
+      <stop offset=".45" stop-color="#a66cff"/>
+      <stop offset="1" stop-color="#ff5f7e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#space)"/>
+  <g opacity=".7">
+    <circle cx="76" cy="94" r="2" fill="#fff"/><circle cx="188" cy="154" r="2" fill="#a66cff"/><circle cx="340" cy="80" r="1.5" fill="#fff"/><circle cx="1012" cy="116" r="2.2" fill="#66f4ff"/><circle cx="1084" cy="270" r="1.5" fill="#fff"/><circle cx="872" cy="492" r="2" fill="#ff5f7e"/>
+    <circle cx="552" cy="184" r="2.4" fill="#fff"/><circle cx="680" cy="92" r="1.6" fill="#fff"/><circle cx="110" cy="510" r="1.8" fill="#66f4ff"/><circle cx="434" cy="520" r="1.5" fill="#fff"/>
+  </g>
+  <path d="M425 334c176-170 396-204 662-154-198 76-392 192-516 310-86 82-206 62-146-156Z" fill="#a66cff" opacity=".34" filter="url(#glow)"/>
+  <circle cx="958" cy="318" r="188" fill="#060a1b" stroke="url(#accent)" stroke-width="15"/>
+  <circle cx="958" cy="318" r="148" fill="#08112d" stroke="#83c5ff" stroke-width="4"/>
+  <path d="M817 328c72-62 166-87 276-73-78 42-140 83-189 130-35 33-78 30-87-57Z" fill="#66f4ff" opacity=".28" filter="url(#glow)"/>
+  <text x="958" y="322" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="56" font-weight="900">DRYMOST</text>
+  <text x="958" y="382" text-anchor="middle" fill="#e8e6ff" font-family="Arial, sans-serif" font-size="34" font-weight="900">MINT STORM 150</text>
+  <text x="82" y="212" fill="#fff" font-family="Arial, sans-serif" font-size="76" font-weight="900">Snusy i saszetki</text>
+  <text x="82" y="298" fill="#a66cff" font-family="Arial, sans-serif" font-size="76" font-weight="900">nikotynowe DRYMOST</text>
+  <text x="82" y="372" fill="#d8dcf6" font-family="Arial, sans-serif" font-size="31" font-weight="700">Storm 150 i Armageddon 200</text>
+  <rect x="82" y="430" width="255" height="64" rx="12" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="210" y="472" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="800">ZOBACZ SMAKI</text>
+</svg>

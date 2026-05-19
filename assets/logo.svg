@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">DRYMOST logo</title>
+  <desc id="desc">Futurystyczny symbol planety z pierścieniem w kolorze fioletowym.</desc>
+  <defs>
+    <linearGradient id="logoGlow" x1="13" x2="83" y1="18" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66F4FF"/>
+      <stop offset=".48" stop-color="#A66CFF"/>
+      <stop offset="1" stop-color="#D978FF"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="96" height="96" fill="none"/>
+  <g fill="none" stroke="url(#logoGlow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <circle cx="48" cy="48" r="22"/>
+    <ellipse cx="48" cy="48" rx="39" ry="12" transform="rotate(-35 48 48)"/>
+    <path d="M66 20 74 12M22 78l8-8"/>
+  </g>
+</svg>
